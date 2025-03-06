@@ -11,6 +11,10 @@ We propose an efficient radiance field rendering algorithm that incorporates a r
 
 
 ## Install
+Difference with the official environment:
+1. Use Pytorch 2.6, to be consistent with xformers.
+
+
 1. Install Pytorch first. The tested versions are `1.13.1+cu117` and `2.5.0+cu124`.
 2. May need to install cuda-toolkit for your virtual environment that is aligned with the installed pytorch:
     - `conda install -y -c "nvidia/label/cuda-11.7.0" cuda-toolkit`
